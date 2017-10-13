@@ -14,14 +14,9 @@ const Input = styled.button`
 	text-decoration:none;
 	border: 0;
 	border-radius: 0;
-
+	outline: none;
 	&:hover{
 		background-color:#0088ff;
-	}
-
-	&:active {
-		position:relative;
-		top:1px;
 	}
 `;
 
