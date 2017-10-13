@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Button value="haha" />
+        <RadioButton value="haha" />
       </div>
     );
   }
