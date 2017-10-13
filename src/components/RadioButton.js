@@ -52,7 +52,7 @@ const Input = styled.div`
 	}
 `;
 
-class Checkbox extends Component {
+class RadioButton extends Component {
 	render(){
 		return (
 			<Input dark>
@@ -63,4 +63,4 @@ class Checkbox extends Component {
 	}
 }
 
-export default Checkbox;
+export default RadioButton;

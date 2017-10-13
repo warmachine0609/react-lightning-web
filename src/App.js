@@ -2,16 +2,14 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Checkbox from './components/Checkbox';
+import RadioButton from './components/RadioButton';
+import Button from './components/Button';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <Checkbox value="haha" name="test" />
+        <Button value="haha" />
       </div>
     );
   }
