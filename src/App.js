@@ -6,14 +6,13 @@ import RadioButton from './components/RadioButton';
 import Button from './components/Button';
 import Badge from './components/Badge';
 import TextArea from './components/TextArea';
+import TextFieldInput from './components/TextFieldInput';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Badge value="haha" />
-        <br />
-        <TextArea label="Label" placeholder="Default Placeholder" />
+        <TextFieldInput label="Label" placeholder="Default Placeholder" />
       </div>
     );
   }

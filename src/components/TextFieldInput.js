@@ -26,7 +26,7 @@ const Input = styled.div`
 	}
 `;
 
-class Checkbox extends Component {
+class TextFieldInput extends Component {
   render() {
     return (
       <Input width={this.props.width}>
@@ -37,4 +37,4 @@ class Checkbox extends Component {
   }
 }
 
-export default Checkbox;
+export default TextFieldInput;
