@@ -6,17 +6,20 @@ import { linkTo } from '@storybook/addon-links';
 
 import Button from '../components/Button';
 import Badge from '../components/Badge';
-
+import TextArea from '../components/TextArea';
 
 // storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
 
 storiesOf('Button', module)
-  .add('with text', () => <Button value="HELLO"/>)
-  .add('with SYMBOLS', () => <Button value="∑∂®ƒ®©"/>);
+  .add('Example', () => <Button value="HELLO"/>)
   // .add('with some emoji', () => <Button onClick={action('clicked')}>😀 😎 👍 💯</Button>);
 
 storiesOf('Badge', module)
-.add('with text', () => <Badge value="LOL" />);
+.add('Example', () => <Badge value="LOL" />);
+
+storiesOf('Textarea', module)
+.add('Example', () => <TextArea label="Label" placeholder="Default Placeholder" />);
+
 
 
 // storiesOf('Button', module)
