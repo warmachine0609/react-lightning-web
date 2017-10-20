@@ -28,10 +28,9 @@ const Input = styled.div`
 
 class Checkbox extends Component {
   render() {
-    console.log(this.props);
     return (
       <Input width={this.props.width}>
-        <label>{this.props.label}</label><br />
+        {this.props.label && <div><label>{this.props.label}</label><br/></div>}
         <input type="text" placeholder={this.props.placeholder}/>
       </Input>
     );
